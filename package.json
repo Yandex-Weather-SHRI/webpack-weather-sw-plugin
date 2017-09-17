@@ -1,0 +1,16 @@
+{
+  "name": "webpack-weather-sw-plugin",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "lodash.template": "^4.4.0",
+    "minimatch": "^3.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yandex-Weather-SHRI/webpack-weather-sw-plugin.git"
+  },
+  "author": "Eugeniy Tropin",
+  "license": "MIT"
+}
