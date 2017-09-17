@@ -16,7 +16,7 @@ class WebpackWeatherSWPlugin {
 
   apply(compiler) {
     compiler.plugin('emit', (compilation, callback) => {
-      fs.readFile(resolve(__dirname, 'template.js'), 'utf-8', (error, content) => {
+      fs.readFile(resolve(__dirname, 'runtime-template.js'), 'utf-8', (error, content) => {
         const { defaultAssets, patternsAssets, name } = this.options
         const assetsList = getAssetsList(defaultAssets, compilation.assets, patternsAssets)
         const assets = assetsAdapter(assetsList)
